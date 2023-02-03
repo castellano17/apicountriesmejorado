@@ -12,3 +12,14 @@
   background-color: var(--Very-Light-Gray);
   color: var(--Very-Dark-Blue);
 }
+
+.App__container {
+  display: grid;
+  gap: 20px;
+  grid-auto-rows: auto;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
